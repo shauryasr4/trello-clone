@@ -1,0 +1,23 @@
+.tc-list {
+    border: 1px solid grey;
+    min-height: 80vh;
+    padding: 10px;
+    width: 200px;
+    margin: 20px;
+}
+
+.tc-list__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tc-list__cards-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tc-list__title__delete::after {
+    content: "\00d7";
+}

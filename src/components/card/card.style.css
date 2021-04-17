@@ -1,0 +1,24 @@
+.tc-card{
+    min-height: 100px;
+    width: 150px;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.tc-card__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tc-card__title__text {
+
+}
+
+.tc-card__title__delete::after {
+    content: "\00d7";
+}
+
+.tc-card__description {
+    margin-top: 20px;
+}
